@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height:100vh;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #e13884;
+    height: 70px;
+    padding: 8px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #e13884;
+    margin: 0 10px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in .7s;
+}
+
+button:hover{
+    color: #e13884;
+    background-color: black;
+}
+
+.About{
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10%;
+    width: 100%;
+}
+
+.perent{
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    width: 50%;
+}
+
+.text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.text p{
+    margin-bottom: 10px;
+    color: #e13884;
+}
+
+.img{
+    width: 50%;
+}
+
+.main-image{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.about-btn{
+    margin-bottom: 10px;
+}
+
+.card{
+    height: 50vh;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    color: #ffffff;
+}
+
+
+
+.cards img{
+    width: 100%;
+}
+
+.card-body h5{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+#carouselExampleIndicators{
+    width: 70vw;
+    
+}
